@@ -1,0 +1,5 @@
+1) Go tem um programa de indentação internamente
+2) Faça o teste no seguinte diretório: /fundamentos/funcoes. Rode: `go run *.go`. 
+    Esse comando roda todos os arquivos go dentro desse diretório, tanto que se um arquivo depender do outro, então, todos eles funcionam.
+3) Não temos o operador ternário em Go
+4) Não podemos fazer aritmética em Go; ou seja, operações com ponteiros
