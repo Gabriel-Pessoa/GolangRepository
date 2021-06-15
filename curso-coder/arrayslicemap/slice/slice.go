@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	a1 := [3]int{1, 2, 3} // array
 	s1 := []int{1, 2, 3}  // slice
 
@@ -27,4 +28,5 @@ func main() {
 	s4 := s2[:1] // slice de slice
 
 	fmt.Println(s2, s4) // apontam para o mesmpo array, a2
+
 }
