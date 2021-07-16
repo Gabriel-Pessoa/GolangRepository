@@ -1,0 +1,17 @@
+Concorrência x Paralelismo
+
+Concorrência: Mono-núcleo, as tarefas são realizadas em sequência, um pouco de cada vez (intercalados). 
+
+Paralelismo: Multiprocessador, várias tarefas ao mesmo tempo; na maioria das vezes é mais perfomático, porém mais custoso. 
+Só que tem uma taxa de overhead que pode deixar o processo lento. Processos simultâneo sendo executados em processadores físicos diferentes
+
+Golang é uma linguagem concorrente, intercalado nas tarefas; pode ocorrer de um único processador.
+
+Concorrência viabiliza paralelismo. Modelar o código para concorrência viabiliza o runtime avaliar as tarefas em vários processadores, se necessário.
+
+É possível que a concorrência seja melhor que o paralelismo! 
+
+Paralelismo exige muito mais do SO e hardware.
+
+Concorrência - é a forma de estruturar o seu programa; é modelar pensando na concorrência. É a composição de processos (tipicamente funções) 
+que executam de forma independente.

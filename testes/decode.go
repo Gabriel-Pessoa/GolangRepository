@@ -7,13 +7,15 @@ import (
 
 func main() {
 
-	/* tests cases
+	/* cases success:
 	48656c6c6f20476f7068657221
 	c8e1331ec7765cfb408dcf9698f24609
 	d6f8debdebe090d1d90d72457d36170b77ed7a07c4658dd7a09069aabe9a09ab1501470db0d7ec6123fbdf5952d5e5d4f148bf6cf598fc237b78e12150810bc0
 	*/
 
-	const s = "gabriel"
+	// case failed: gabriel
+
+	const s = "48656c6c6f20476f7068657221"
 	decoded, err := fromHexToByte(s)
 	if err != nil {
 		//log.Fatal(err)
